@@ -1,0 +1,361 @@
+.headnav {
+    width: 110%;
+    border-radius: 13%;
+}
+
+.small {
+    font-size: 0.9rem !important;
+    font-weight: bold;
+    margin-top: 45%;
+    line-height: 100%;
+    margin-left: 15%;
+}
+
+.small2 {
+    font-size: 0.7rem !important;
+    opacity: 0.5;
+}
+
+.cross {
+    font-size: 150%;
+}
+
+.barthing i {
+    margin-left: 5%;
+    font-size: 220%;
+}
+
+.liner {
+    line-height: 20%;
+    text-decoration: none;
+    margin-top: 2%;
+}
+
+.navbutton {
+    width: 85%;
+    margin-left: 5%;
+    border-radius: 13%;
+}
+
+.navrow {
+    font-size: 80%;
+}
+
+.navrow i {
+    margin-right: 10%;
+}
+
+.iconPosition {
+    float: right;
+    font-size: 38px;
+    margin-right: 10%;
+    margin-top: 5%;
+}
+
+.sayHi {
+    font-weight: bold;
+    padding-left: 1%;
+    line-height: 10%;
+}
+
+.greeting {
+    opacity: 0.5;
+    padding-left: 1%;
+    line-height: 130%;
+}
+
+.example {
+    max-width: 100%;
+    margin-left: 5%;
+}
+
+.example input[type=text] {
+    padding: 1%;
+    font-size: 100%;
+    float: left;
+    width: 85%;
+    border: 0px;
+    background: #f1f1f1;
+}
+
+.example button {
+    float: left;
+    width: 10%;
+    padding: 1%;
+    font-size: 100%;
+    border: 0px;
+    cursor: pointer;
+}
+
+.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.sliderr {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.textAlignment {
+    margin-bottom: 5%;
+    line-height: 10px;
+    margin-left: 10%;
+}
+
+.categoryCard {
+    margin-left: 1%;
+    text-align: center;
+    width: 6.5rem !important;
+}
+
+.cardTitle {
+    font-size: 0.6rem;
+    padding-top: 10px;
+    opacity: 0.5;
+}
+
+.iconSize {
+    font-size: 250%;
+    margin-top: 10%;
+}
+
+.imgSize {
+    width: 120%;
+    height: 80%;
+    padding-top: 10%;
+}
+
+.textAligning {
+    margin-top: -5%;
+    margin-left: 10%;
+}
+
+.consultant {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+.consultantTitle {
+    font-weight: bold;
+    font-size: 0.5em;
+}
+
+.consultantTitle2 {
+    line-height: 105%;
+    opacity: 0.5;
+}
+
+.texting {
+    padding-top: 4%;
+}
+
+.icons {
+    padding-top: 8%;
+    font-size: 60%;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.navbar a:hover {
+    background: #f1f1f1;
+    color: black;
+}
+
+.navbar a.active {
+    color: red;
+}
+
+.main {
+    padding: 16px;
+    margin-bottom: 30px;
+}
+
+.navbar i {
+    font-size: 160%;
+}
+
+.sidenav {
+    padding-bottom: 10%;
+}
+
+/* for mobile  */
+
+@media only screen and (max-width: 768px) {
+    .sidenav {
+        padding-bottom: 30%;
+    }
+}
+
+/* for teblet  */
+
+@media only screen and (min-width: 768px) {
+    .example button {
+        width: 5%;
+    }
+    .categoryCard {
+        text-align: center;
+        width: 13rem !important;
+    }
+    .iconSize {
+        font-size: 750%;
+        margin-top: 10%;
+    }
+    .sayHi {
+        padding-left: 5%;
+    }
+    .greeting {
+        padding-left: 5%;
+    }
+    .consultantTitle {
+        font-size: 1em;
+    }
+    .imgSize {
+        width: 100%;
+        height: 80%;
+    }
+    .texting {
+        padding-top: 3%;
+        font-size: 120%;
+    }
+    .icons {
+        padding-top: 3%;
+        font-size: 180%;
+    }
+    .textAligning {
+        margin-top: 2%;
+        font-size: 180%;
+    }
+    .textAlignment {
+        font-size: 180%;
+        margin-bottom: 2%;
+    }
+    .cardTitle {
+        font-size: 1rem;
+        padding-top: 10px;
+    }
+    .navbar a {
+        width: 10%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .example button {
+        width: 5%;
+    }
+    .categoryCard {
+        text-align: center;
+        width: 18rem !important;
+    }
+    .iconSize {
+        font-size: 750%;
+        margin-top: 10%;
+    }
+    .sayHi {
+        padding-left: 5%;
+    }
+    .greeting {
+        padding-left: 5%;
+    }
+    .consultantTitle {
+        font-size: 1em;
+    }
+    .imgSize {
+        width: 100%;
+        height: 80%;
+    }
+    .texting {
+        padding-top: 4%;
+        font-size: 120%;
+    }
+    .icons {
+        padding-top: 4%;
+        font-size: 180%;
+    }
+    .textAligning {
+        margin-top: 2%;
+        font-size: 180%;
+    }
+    .textAlignment {
+        font-size: 180%;
+        margin-bottom: 2%;
+    }
+    .cardTitle {
+        font-size: 1rem;
+        padding-top: 10px;
+    }
+    .navbar a {
+        width: 10%;
+    }
+}
+
+/* //for laptop */
+
+@media only screen and (min-width: 1366px) {
+    .example button {
+        width: 5%;
+    }
+    .categoryCard {
+        text-align: center;
+        width: 26rem !important;
+    }
+    .iconSize {
+        font-size: 750%;
+        margin-top: 10%;
+    }
+    .sayHi {
+        padding-left: 5%;
+    }
+    .greeting {
+        padding-left: 5%;
+    }
+    .consultantTitle {
+        font-size: 1em;
+    }
+    .imgSize {
+        width: 100%;
+        height: 80%;
+    }
+    .texting {
+        padding-top: 6%;
+        font-size: 120%;
+    }
+    .icons {
+        padding-top: 6%;
+        font-size: 180%;
+    }
+    .textAligning {
+        margin-top: 2%;
+        font-size: 180%;
+    }
+    .textAlignment {
+        font-size: 180%;
+        margin-bottom: 2%;
+    }
+    .cardTitle {
+        font-size: 1rem;
+        padding-top: 10px;
+    }
+    .navbar a {
+        width: 10%;
+    }
+}

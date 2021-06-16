@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styler.css">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/074f69c8ee.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Sidebar -->
+
+    <div class="w3-sidebar w3-bar-block bg-dark sidenav" style="display:none;z-index:5" id="mySidebar">
+
+        <button class="w3-bar-item w3-button w3-large " onclick="w3_close()">
+
+
+
+            <div class=" row bg-white headnav">
+                <div class="col-2 barthing">
+                    <span class="cross">&times;</span>
+
+
+                    <i class='fas fa-user-circle '></i>
+                </div>
+
+                <div class="col-8 textbar">
+
+                    <p class="small"> Username
+
+                        <span class="small2">
+                            Phone Number
+                        </span>
+                    </p>
+
+
+                </div>
+        </button>
+        <hr>
+        <button class="navbutton bg-white" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse1"
+            aria-expanded="false"">Build Your Career</button>
+<hr class=" bg-light ">
+            <div class=" collapse" id="dashboard-collapse1">
+            <ul class="navrow">
+                <li><a href="#blogs" class="w3-bar-item link-light liner "><i class="fas fa-blog"></i> Blogs</a>
+                    <hr class="bg-light ">
+                </li>
+                <li><a href="#Career E-Books" class="w3-bar-item link-light liner "><i class="fas fa-book"></i>Career
+                        E-Books</a>
+                </li>
+
+            </ul>
+    </div>
+
+    <button class="navbutton bg-white" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse2"
+        aria-expanded="false"">Test Your Skills</button>
+<hr class=" bg-light ">
+        <div class=" collapse" id="dashboard-collapse2">
+        <ul class="navrow">
+            <li><a href="#" class="w3-bar-item link-light liner "><i class="fas fa-file-alt"></i>Test your skills</a>
+                <hr class="bg-light ">
+            </li>
+            <li><a href="#" class="w3-bar-item link-light liner "><i class="fas fa-exclamation-circle"></i>View Test
+                    Report</a>
+            </li>
+
+        </ul>
+        </div>
+
+        <button class="navbutton bg-white" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse3"
+            aria-expanded="false"">Communicate</button>
+            <hr class=" bg-light ">
+            <div class=" collapse" id="dashboard-collapse3">
+            <ul class="navrow">
+                <li><a href="#" class="w3-bar-item link-light liner "><i class="fas fa-share-alt"></i>Refer a Friend</a>
+                    <hr class="bg-light ">
+                </li>
+                <li><a href="#" class="w3-bar-item link-light liner "><i class="fas fa-phone-volume"></i>Contact Us</a>
+                    <hr class="bg-light ">
+                </li>
+                <li><a href="#" class="w3-bar-item link-light liner "><i class="fas fa-user"></i>About Us</a>
+                    <hr class="bg-light ">
+                </li>
+                <li><a href="#" class="w3-bar-item link-light liner "><i class="far fa-question-circle"></i>Help</a>
+                    <hr class="bg-light ">
+                </li>
+                <li><a href="#" class="w3-bar-item link-light liner "><i class="fas fa-star"></i>Rate Us</a>
+                    <hr class="bg-light ">
+                </li>
+                <li><a href="#" class="w3-bar-item link-light liner "><i class="fas fa-sign-out-alt"></i>Log out</a>
+                </li>
+
+            </ul>
+
+            </div>
+            <hr>
+            <a href=""><button class="navbutton bg-dark" style="color:white;border-style: solid;font-size: 90%;"
+                    data-bs-toggle="collapse" data-bs-target="#dashboard-collapse1" aria-expanded="false"">Sign In as a Counseller</button></a>
+            
+
+
+            </div>
+
+            <!-- Page Content -->
+            <div class=" w3-overlay" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
+
+                    <div>
+                        <button class="w3-button w3-white w3-xxlarge" onclick="w3_open()">&#9776;</button>
+
+                        <i class='iconPosition fas fa-user-circle'></i>
+
+                        <div class="w3-container">
+                            <h5 class=" sayHi">Hi Fatima!</h5>
+                            <p class=" greeting">Go for an online Consultant.</p>
+                        </div>
+
+                        <div class="example">
+                            <input type="text" placeholder="Search.." name="search2">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </div>
+
+
+                        <br>
+
+                        <h4 class="textAlignment">
+                            Categories
+                        </h4>
+
+                        <div id="carouselExampleSlidesOnly" class="carousel slide sliderr" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+
+
+                                <div class="carousel-item active">
+                                    <div class="row">
+                                        <div class="categoryCard">
+                                            <div class="card bg-light mb-2 border-0" ">
+<div class=" ">
+                                <i class=" fas fa-user-tie iconSize">
+
+
+                                                <p class="cardTitle">Management </p>
+                                                </i>
+
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                    <div class="categoryCard">
+                                        <div class="card bg-light mb-2 border-0" ">
+<div class=" ">
+                            <i class=" fas fa-user-cog iconSize">
+
+                                            <p class="cardTitle">Engineer </p>
+                                            </i>
+
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+                                <div class="categoryCard">
+                                    <div class="card bg-light mb-2 border-0" ">
+<div class=" ">
+                        <i class=" fas fa-user-md iconSize">
+
+
+                                        <p class="cardTitle">Doctor </p>
+                                        </i>
+
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="row">
+                            <div class="categoryCard">
+                                <div class="card bg-light mb-2 border-0" ">
+<div class=" ">
+                    <i class=" fas fa-chalkboard-teacher iconSize">
+
+                                    <p class="cardTitle">Accountant </p>
+                                    </i>
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <div class="categoryCard">
+                            <div class="card bg-light mb-2 border-0" ">
+<div class=" ">
+                <i class=" fas fa-user-astronaut iconSize">
+
+
+                                <p class="cardTitle">Astronaut </p>
+                                </i>
+
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="categoryCard">
+                        <div class="card bg-light mb-2 border-0" ">
+<div class=" ">
+            <i class=" fas fa-user-nurse iconSize">
+
+                            <p class="cardTitle">Nurse </p>
+                            </i>
+
+                        </div>
+                    </div>
+
+
+
+                    </div>
+
+
+
+                    </div>
+
+
+
+                    </div>
+
+                    </div>
+                    </div>
+
+                    <br>
+                    <br>
+
+
+
+                    <h6 class="textAligning">
+                        Consultants
+                    </h6>
+
+
+
+
+
+
+
+
+                    <div class="consultant bg-light mb-4 ">
+
+
+
+                        <div class=" row  ">
+                            <div class="col-3 col-md-2">
+                                <img class="imgSize" src="img.png" alt="">
+                            </div>
+
+                            <div class="col-5 col-md-5 texting">
+
+                                <span class="consultantTitle"> Nosreen Ahmed
+                                    <p class="consultantTitle2">
+                                        Management Consultant
+                                    </p>
+
+                                </span>
+                            </div>
+
+
+                            <div class="col-4 col-md-4 icons">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+
+                    <div class="consultant bg-light mb-4 ">
+
+
+
+                        <div class=" row  ">
+                            <div class="col-3 col-md-2">
+                                <img class="imgSize" src="img.png" alt="">
+                            </div>
+
+                            <div class="col-5 col-md-5 texting">
+
+                                <span class="consultantTitle"> Daud Khan
+                                    <p class="consultantTitle2">
+                                        Engineering Consultant
+                                    </p>
+
+                                </span>
+                            </div>
+
+
+                            <div class="col-4 col-md-4 icons">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+
+                    <div class="consultant bg-light mb-4 ">
+
+
+
+                        <div class=" row  ">
+                            <div class="col-3 col-md-2">
+                                <img class="imgSize" src="img.png" alt="">
+                            </div>
+
+                            <div class="col-5 col-md-5 texting">
+
+                                <span class="consultantTitle"> Ahmed Ali
+                                    <p class="consultantTitle2">
+                                        Medical Consultant
+                                    </p>
+
+                                </span>
+                            </div>
+
+
+                            <div class="col-4 col-md-4 icons">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+
+
+                    <div class="consultant bg-light mb-4 ">
+
+
+
+                        <div class=" row  ">
+                            <div class="col-3 col-md-2">
+                                <img class="imgSize" src="img.png" alt="">
+                            </div>
+
+                            <div class="col-5 col-md-5 texting">
+
+                                <span class="consultantTitle"> Nosreen Ahmed
+                                    <p class="consultantTitle2">
+                                        Management Consultant
+                                    </p>
+
+                                </span>
+                            </div>
+
+
+                            <div class="col-4 col-md-4 icons">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+
+                    <div class="consultant bg-light mb-4 ">
+
+
+
+                        <div class=" row  ">
+                            <div class="col-3 col-md-2">
+                                <img class="imgSize" src="img.png" alt="">
+                            </div>
+
+                            <div class="col-5 col-md-5 texting">
+
+                                <span class="consultantTitle"> Daud Khan
+                                    <p class="consultantTitle2">
+                                        Engineering Consultant
+                                    </p>
+
+                                </span>
+                            </div>
+
+
+                            <div class="col-4 col-md-4 icons">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+
+                    <div class="consultant bg-light mb-4 ">
+
+
+
+                        <div class=" row  ">
+                            <div class="col-3 col-md-2">
+                                <img class="imgSize" src="img.png" alt="">
+                            </div>
+
+                            <div class="col-5 col-md-5 texting">
+
+                                <span class="consultantTitle"> Ahmed Ali
+                                    <p class="consultantTitle2">
+                                        Medical Consultant
+                                    </p>
+
+                                </span>
+                            </div>
+
+
+                            <div class="col-4 col-md-4 icons">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+
+                    <div class="consultant bg-light mb-4 ">
+
+
+
+                        <div class=" row  ">
+                            <div class="col-3 col-md-2">
+                                <img class="imgSize" src="img.png" alt="">
+                            </div>
+
+                            <div class="col-5 col-md-5 texting">
+
+                                <span class="consultantTitle"> Nosreen Ahmed
+                                    <p class="consultantTitle2">
+                                        Management Consultant
+                                    </p>
+
+                                </span>
+                            </div>
+
+
+                            <div class="col-4 col-md-4 icons">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+
+                    <div class="consultant bg-light mb-4 ">
+
+
+
+                        <div class=" row  ">
+                            <div class="col-3 col-md-2">
+                                <img class="imgSize" src="img.png" alt="">
+                            </div>
+
+                            <div class="col-5 col-md-5 texting">
+
+                                <span class="consultantTitle"> Daud Khan
+                                    <p class="consultantTitle2">
+                                        Engineering Consultant
+                                    </p>
+
+                                </span>
+                            </div>
+
+
+                            <div class="col-4 col-md-4 icons">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+
+                    <div class="consultant bg-light mb-4 ">
+
+
+
+                        <div class=" row  ">
+                            <div class="col-3 col-md-2">
+                                <img class="imgSize" src="img.png" alt="">
+                            </div>
+
+                            <div class="col-5 col-md-5 texting">
+
+                                <span class="consultantTitle"> Ahmed Ali
+                                    <p class="consultantTitle2">
+                                        Medical Consultant
+                                    </p>
+
+                                </span>
+                            </div>
+
+
+                            <div class="col-4 col-md-4 icons">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+
+                            </div>
+
+
+
+
+
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+
+
+                    </div>
+
+
+
+                    <div class="navbar fixed-bottom ">
+                        <a href="#home" class="active"> <i class="fas fa-home"></i> <br> Home</a>
+                        <a href="#videos"> <i class="fas fa-video"></i> <br> Videos</a>
+                        <a href="#exams"> <i class="fas fa-tasks"></i> <br> Exams</a>
+                        <a href="#notification"> <i class="far fa-bell"></i> <br> Notification</a>
+                        <a href="#booking"> <i class="far fa-hand-pointer"></i> <br> Booking</a>
+                    </div>
+
+
+
+
+
+                    <script src="app.js">
+
+                    </script>
+</body>
+
+</html>
